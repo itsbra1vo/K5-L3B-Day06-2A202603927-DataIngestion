@@ -1,0 +1,353 @@
+{
+  "source_id": "gutenberg-38536",
+  "title": "A Review of Algebra",
+  "author": "Romeyn Henry Rivenburg",
+  "publication_year": 1914,
+  "source_path_or_url": "https://www.gutenberg.org/ebooks/38536.txt.utf-8",
+  "project_gutenberg_record": "https://www.gutenberg.org/ebooks/38536",
+  "local_source_file": "gutenberg_38536_source.txt",
+  "source_sha256": "421f6177b84e7d55ca087375e0fe6e38c6eaef723d31ef0a0f0c56454c4247aa",
+  "accessed_at": "2026-11-14",
+  "license_or_permission": "Project Gutenberg eBook #38536 states that it may be copied/reused under the included Project Gutenberg License and is public domain in the USA. Copyright status outside the USA must be checked under local law; the downloaded source includes the license text.",
+  "selection": {
+    "topic": "Algebra review: concepts, worked exercises, and college entrance examination problems",
+    "printed_page_range_in_table_of_contents": "7-80",
+    "nominal_printed_pages": 74,
+    "pagination_note": "The selected source is the Project Gutenberg UTF-8 plain-text file, which has no stable printed-page markers. Traceability is recorded with 1-based line ranges in that source; the HTML contents identifies the main book content as pages 7-80.",
+    "source_start_line": 202,
+    "source_end_line": 3602,
+    "excluded": "Project Gutenberg header, title/cover material, preface, contents, and all Project Gutenberg end matter/license boilerplate from the selected corpus. The license remains in the downloaded source file.",
+    "segmentation": "Contiguous complete paragraphs grouped in source order. Each unit ends at a paragraph boundary and contains at least 1,500 characters; any final remainder is joined to the preceding unit.",
+    "character_count_method": "For each stored unit text: decode source as UTF-8 (ignore BOM), trim each non-empty source line, preserve line breaks within paragraphs, join paragraphs with two LF characters, normalize Unicode to NFC, trim the unit boundary, then count Python Unicode code points with len(text), including spaces and internal LF characters. The counted text is exactly the JSONL text field.",
+    "equation_note": "Uses Project Gutenberg plain-text transcription, which represents mathematical expressions as text; complex notation should be spot-checked against the HTML edition before downstream use."
+  },
+  "unit_count": 54,
+  "total_characters": 85415,
+  "corpus_file": "gutenberg_38536_selected.jsonl",
+  "units": [
+    {
+      "unit_id": "gutenberg-38536-u001",
+      "source_start_line": 202,
+      "source_end_line": 256,
+      "character_count": 1553
+    },
+    {
+      "unit_id": "gutenberg-38536-u002",
+      "source_start_line": 258,
+      "source_end_line": 332,
+      "character_count": 1515
+    },
+    {
+      "unit_id": "gutenberg-38536-u003",
+      "source_start_line": 334,
+      "source_end_line": 411,
+      "character_count": 1504
+    },
+    {
+      "unit_id": "gutenberg-38536-u004",
+      "source_start_line": 413,
+      "source_end_line": 487,
+      "character_count": 1514
+    },
+    {
+      "unit_id": "gutenberg-38536-u005",
+      "source_start_line": 489,
+      "source_end_line": 568,
+      "character_count": 1500
+    },
+    {
+      "unit_id": "gutenberg-38536-u006",
+      "source_start_line": 570,
+      "source_end_line": 639,
+      "character_count": 1504
+    },
+    {
+      "unit_id": "gutenberg-38536-u007",
+      "source_start_line": 641,
+      "source_end_line": 707,
+      "character_count": 1502
+    },
+    {
+      "unit_id": "gutenberg-38536-u008",
+      "source_start_line": 709,
+      "source_end_line": 794,
+      "character_count": 1554
+    },
+    {
+      "unit_id": "gutenberg-38536-u009",
+      "source_start_line": 796,
+      "source_end_line": 866,
+      "character_count": 1503
+    },
+    {
+      "unit_id": "gutenberg-38536-u010",
+      "source_start_line": 868,
+      "source_end_line": 934,
+      "character_count": 1548
+    },
+    {
+      "unit_id": "gutenberg-38536-u011",
+      "source_start_line": 936,
+      "source_end_line": 986,
+      "character_count": 1728
+    },
+    {
+      "unit_id": "gutenberg-38536-u012",
+      "source_start_line": 988,
+      "source_end_line": 1052,
+      "character_count": 1539
+    },
+    {
+      "unit_id": "gutenberg-38536-u013",
+      "source_start_line": 1054,
+      "source_end_line": 1118,
+      "character_count": 1877
+    },
+    {
+      "unit_id": "gutenberg-38536-u014",
+      "source_start_line": 1120,
+      "source_end_line": 1197,
+      "character_count": 1577
+    },
+    {
+      "unit_id": "gutenberg-38536-u015",
+      "source_start_line": 1199,
+      "source_end_line": 1263,
+      "character_count": 1530
+    },
+    {
+      "unit_id": "gutenberg-38536-u016",
+      "source_start_line": 1265,
+      "source_end_line": 1332,
+      "character_count": 1505
+    },
+    {
+      "unit_id": "gutenberg-38536-u017",
+      "source_start_line": 1334,
+      "source_end_line": 1402,
+      "character_count": 1549
+    },
+    {
+      "unit_id": "gutenberg-38536-u018",
+      "source_start_line": 1404,
+      "source_end_line": 1487,
+      "character_count": 1564
+    },
+    {
+      "unit_id": "gutenberg-38536-u019",
+      "source_start_line": 1489,
+      "source_end_line": 1534,
+      "character_count": 1536
+    },
+    {
+      "unit_id": "gutenberg-38536-u020",
+      "source_start_line": 1536,
+      "source_end_line": 1580,
+      "character_count": 1574
+    },
+    {
+      "unit_id": "gutenberg-38536-u021",
+      "source_start_line": 1582,
+      "source_end_line": 1663,
+      "character_count": 1520
+    },
+    {
+      "unit_id": "gutenberg-38536-u022",
+      "source_start_line": 1665,
+      "source_end_line": 1728,
+      "character_count": 1509
+    },
+    {
+      "unit_id": "gutenberg-38536-u023",
+      "source_start_line": 1730,
+      "source_end_line": 1788,
+      "character_count": 1500
+    },
+    {
+      "unit_id": "gutenberg-38536-u024",
+      "source_start_line": 1790,
+      "source_end_line": 1850,
+      "character_count": 1555
+    },
+    {
+      "unit_id": "gutenberg-38536-u025",
+      "source_start_line": 1852,
+      "source_end_line": 1931,
+      "character_count": 1534
+    },
+    {
+      "unit_id": "gutenberg-38536-u026",
+      "source_start_line": 1933,
+      "source_end_line": 2028,
+      "character_count": 1548
+    },
+    {
+      "unit_id": "gutenberg-38536-u027",
+      "source_start_line": 2030,
+      "source_end_line": 2095,
+      "character_count": 1588
+    },
+    {
+      "unit_id": "gutenberg-38536-u028",
+      "source_start_line": 2097,
+      "source_end_line": 2150,
+      "character_count": 1517
+    },
+    {
+      "unit_id": "gutenberg-38536-u029",
+      "source_start_line": 2152,
+      "source_end_line": 2210,
+      "character_count": 1752
+    },
+    {
+      "unit_id": "gutenberg-38536-u030",
+      "source_start_line": 2212,
+      "source_end_line": 2264,
+      "character_count": 1635
+    },
+    {
+      "unit_id": "gutenberg-38536-u031",
+      "source_start_line": 2266,
+      "source_end_line": 2333,
+      "character_count": 1546
+    },
+    {
+      "unit_id": "gutenberg-38536-u032",
+      "source_start_line": 2335,
+      "source_end_line": 2381,
+      "character_count": 1531
+    },
+    {
+      "unit_id": "gutenberg-38536-u033",
+      "source_start_line": 2383,
+      "source_end_line": 2430,
+      "character_count": 1552
+    },
+    {
+      "unit_id": "gutenberg-38536-u034",
+      "source_start_line": 2432,
+      "source_end_line": 2475,
+      "character_count": 1626
+    },
+    {
+      "unit_id": "gutenberg-38536-u035",
+      "source_start_line": 2477,
+      "source_end_line": 2506,
+      "character_count": 1515
+    },
+    {
+      "unit_id": "gutenberg-38536-u036",
+      "source_start_line": 2508,
+      "source_end_line": 2537,
+      "character_count": 1680
+    },
+    {
+      "unit_id": "gutenberg-38536-u037",
+      "source_start_line": 2540,
+      "source_end_line": 2576,
+      "character_count": 1777
+    },
+    {
+      "unit_id": "gutenberg-38536-u038",
+      "source_start_line": 2578,
+      "source_end_line": 2618,
+      "character_count": 1770
+    },
+    {
+      "unit_id": "gutenberg-38536-u039",
+      "source_start_line": 2620,
+      "source_end_line": 2670,
+      "character_count": 1570
+    },
+    {
+      "unit_id": "gutenberg-38536-u040",
+      "source_start_line": 2672,
+      "source_end_line": 2739,
+      "character_count": 1527
+    },
+    {
+      "unit_id": "gutenberg-38536-u041",
+      "source_start_line": 2741,
+      "source_end_line": 2804,
+      "character_count": 1561
+    },
+    {
+      "unit_id": "gutenberg-38536-u042",
+      "source_start_line": 2806,
+      "source_end_line": 2858,
+      "character_count": 1629
+    },
+    {
+      "unit_id": "gutenberg-38536-u043",
+      "source_start_line": 2863,
+      "source_end_line": 2920,
+      "character_count": 1538
+    },
+    {
+      "unit_id": "gutenberg-38536-u044",
+      "source_start_line": 2922,
+      "source_end_line": 2971,
+      "character_count": 1888
+    },
+    {
+      "unit_id": "gutenberg-38536-u045",
+      "source_start_line": 2976,
+      "source_end_line": 3036,
+      "character_count": 1623
+    },
+    {
+      "unit_id": "gutenberg-38536-u046",
+      "source_start_line": 3038,
+      "source_end_line": 3088,
+      "character_count": 1553
+    },
+    {
+      "unit_id": "gutenberg-38536-u047",
+      "source_start_line": 3090,
+      "source_end_line": 3155,
+      "character_count": 1594
+    },
+    {
+      "unit_id": "gutenberg-38536-u048",
+      "source_start_line": 3157,
+      "source_end_line": 3210,
+      "character_count": 1587
+    },
+    {
+      "unit_id": "gutenberg-38536-u049",
+      "source_start_line": 3212,
+      "source_end_line": 3267,
+      "character_count": 1535
+    },
+    {
+      "unit_id": "gutenberg-38536-u050",
+      "source_start_line": 3269,
+      "source_end_line": 3324,
+      "character_count": 1530
+    },
+    {
+      "unit_id": "gutenberg-38536-u051",
+      "source_start_line": 3326,
+      "source_end_line": 3398,
+      "character_count": 1535
+    },
+    {
+      "unit_id": "gutenberg-38536-u052",
+      "source_start_line": 3401,
+      "source_end_line": 3464,
+      "character_count": 1501
+    },
+    {
+      "unit_id": "gutenberg-38536-u053",
+      "source_start_line": 3466,
+      "source_end_line": 3527,
+      "character_count": 1522
+    },
+    {
+      "unit_id": "gutenberg-38536-u054",
+      "source_start_line": 3529,
+      "source_end_line": 3602,
+      "character_count": 1891
+    }
+  ]
+}
