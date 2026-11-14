@@ -1,0 +1,391 @@
+{
+  "benchmark": "gutenberg-38536-algebra-retrieval-v1",
+  "source_id": "gutenberg-38536",
+  "source_title": "A Review of Algebra",
+  "created_before_retrieval_runs": true,
+  "split_policy": "Fixed topic-held-out split: 18 dev and 6 test. Test questions were assigned before retrieval; do not tune on test.",
+  "leakage_risk": "High at document level: all questions come from one book, and its opening outline repeats or previews later chapters. Test topics are held out from dev questions where possible, but the outline can still expose test concepts. Do not treat this small test as evidence of general performance.",
+  "evidence_verification": {
+    "corpus_file": "gutenberg_38536_selected.jsonl",
+    "method": "Each evidence_quote was checked as an exact substring of the NFC-normalized text field for its gold_page unit. Evidence strings preserve the normalized source wording; source_page is the manifest unit_id, a stable page-equivalent locator.",
+    "metadata_filter_contract": "For filter questions, the question explicitly supplies the section context before retrieval. Populate each paragraph/chunk's metadata field `section` from the nearest preceding section heading in source order, carrying the active heading across corpus-unit boundaries; normalize heading values to uppercase. Apply the specified exact-match filter before vector search. Do not derive filter values from gold answers or gold locations."
+  },
+  "questions": [
+    {
+      "id": "D01",
+      "split": "dev",
+      "topic": "Factoring",
+      "question_type": "direct",
+      "question": "Theo ví dụ trong tài liệu, đặt nhân tử chung ra ngoài biểu thức mx + my - mz thì được kết quả nào?",
+      "expected_answer": "m(x + y - z).",
+      "gold_source_id": "gutenberg-38536",
+      "gold_page": "gutenberg-38536-u001",
+      "evidence_quote": "mx + my - mz = m(x + y - z).",
+      "filter": null
+    },
+    {
+      "id": "D02",
+      "split": "dev",
+      "topic": "Factoring",
+      "question_type": "direct",
+      "question": "Tài liệu phân tích hiệu hai bình phương x^2 - y^2 thành tích nào?",
+      "expected_answer": "(x + y)(x - y).",
+      "gold_source_id": "gutenberg-38536",
+      "gold_page": "gutenberg-38536-u002",
+      "evidence_quote": "x^2 - y^2 = (x + y)(x - y).",
+      "additional_gold_sources": [
+        {
+          "gold_source_id": "gutenberg-38536",
+          "gold_page": "gutenberg-38536-u007",
+          "evidence_quote": "x^2 - y^2 = (x + y)(x - y)."
+        }
+      ],
+      "filter": null
+    },
+    {
+      "id": "D03",
+      "split": "dev",
+      "topic": "Factoring",
+      "question_type": "direct",
+      "question": "Theo ví dụ về tam thức dạng x^2 + bx + c, x^2 - 5x + 6 được phân tích thành gì?",
+      "expected_answer": "(x - 2)(x - 3).",
+      "gold_source_id": "gutenberg-38536",
+      "gold_page": "gutenberg-38536-u002",
+      "evidence_quote": "x^2 - 5x + 6 = (x - 2)(x - 3).",
+      "filter": null
+    },
+    {
+      "id": "D04",
+      "split": "dev",
+      "topic": "Factoring",
+      "question_type": "direct",
+      "question": "Kết quả phân tích được nêu cho x^3 + 17x - 18 theo Factor Theorem là gì?",
+      "expected_answer": "(x - 1)(x^2 + x + 18).",
+      "gold_source_id": "gutenberg-38536",
+      "gold_page": "gutenberg-38536-u002",
+      "evidence_quote": "x^3 + 17x - 18 = (x - 1)(x^2 + x + 18).",
+      "additional_gold_sources": [
+        {
+          "gold_source_id": "gutenberg-38536",
+          "gold_page": "gutenberg-38536-u007",
+          "evidence_quote": "x^3 + 17x - 18 = (x - 1)(x^2 + x + 18)."
+        }
+      ],
+      "filter": null
+    },
+    {
+      "id": "D05",
+      "split": "dev",
+      "topic": "Simultaneous equations",
+      "question_type": "direct",
+      "question": "Tài liệu liệt kê những phương pháp nào để giải hệ phương trình đồng thời?",
+      "expected_answer": "Cộng hoặc trừ, thế, và so sánh.",
+      "gold_source_id": "gutenberg-38536",
+      "gold_page": "gutenberg-38536-u002",
+      "evidence_quote": "Solved by\naddition or subtraction.\nsubstitution.\ncomparison.",
+      "filter": null
+    },
+    {
+      "id": "D06",
+      "split": "dev",
+      "topic": "Exponents",
+      "question_type": "paraphrase",
+      "question": "Trong mục Theory of Exponents, khi nhân hai lũy thừa cùng cơ số thì phải xử lý số mũ thế nào?",
+      "expected_answer": "Cộng các số mũ.",
+      "gold_source_id": "gutenberg-38536",
+      "gold_page": "gutenberg-38536-u014",
+      "evidence_quote": "To multiply quantities having the same base, add exponents.",
+      "additional_gold_sources": [
+        {
+          "gold_source_id": "gutenberg-38536",
+          "gold_page": "gutenberg-38536-u003",
+          "evidence_quote": "To multiply quantities having the same base, add exponents."
+        }
+      ],
+      "filter": {
+        "field": "section",
+        "value": "THEORY OF EXPONENTS",
+        "provided_by": "question"
+      }
+    },
+    {
+      "id": "D07",
+      "split": "dev",
+      "topic": "Exponents",
+      "question_type": "paraphrase",
+      "question": "Trong mục Theory of Exponents, nếu chia hai đại lượng có cùng cơ số thì số mũ của kết quả được xác định ra sao?",
+      "expected_answer": "Lấy số mũ của đại lượng bị chia trừ số mũ của đại lượng chia (quy tắc trong sách: subtract exponents).",
+      "gold_source_id": "gutenberg-38536",
+      "gold_page": "gutenberg-38536-u014",
+      "evidence_quote": "To divide quantities having the same base, subtract exponents.",
+      "additional_gold_sources": [
+        {
+          "gold_source_id": "gutenberg-38536",
+          "gold_page": "gutenberg-38536-u003",
+          "evidence_quote": "To divide quantities having the same base, subtract\nexponents."
+        }
+      ],
+      "filter": {
+        "field": "section",
+        "value": "THEORY OF EXPONENTS",
+        "provided_by": "question"
+      }
+    },
+    {
+      "id": "D08",
+      "split": "dev",
+      "topic": "Exponents",
+      "question_type": "paraphrase",
+      "question": "Theo quy tắc trong phần số mũ, khi nâng một lũy thừa lên lũy thừa khác thì kết hợp hai số mũ như thế nào?",
+      "expected_answer": "Nhân các số mũ.",
+      "gold_source_id": "gutenberg-38536",
+      "gold_page": "gutenberg-38536-u014",
+      "evidence_quote": "To raise a quantity to a power, multiply exponents.",
+      "filter": null
+    },
+    {
+      "id": "D09",
+      "split": "dev",
+      "topic": "Exponents",
+      "question_type": "paraphrase",
+      "question": "Trong mục Theory of Exponents, muốn lấy căn của một lũy thừa thì số mũ được điều chỉnh theo chỉ số căn thế nào?",
+      "expected_answer": "Chia số mũ của lũy thừa cho chỉ số căn.",
+      "gold_source_id": "gutenberg-38536",
+      "gold_page": "gutenberg-38536-u014",
+      "evidence_quote": "To extract a root, divide the exponent of the power by the\nindex of the root.",
+      "additional_gold_sources": [
+        {
+          "gold_source_id": "gutenberg-38536",
+          "gold_page": "gutenberg-38536-u003",
+          "evidence_quote": "To extract a root, divide the exponent of the power by the\nindex of the root."
+        }
+      ],
+      "filter": {
+        "field": "section",
+        "value": "THEORY OF EXPONENTS",
+        "provided_by": "question"
+      }
+    },
+    {
+      "id": "D10",
+      "split": "dev",
+      "topic": "Exponents",
+      "question_type": "direct",
+      "question": "Theo phần giải thích về số mũ phân số, tử số và mẫu số lần lượt biểu thị điều gì?",
+      "expected_answer": "Tử số biểu thị lũy thừa; mẫu số biểu thị căn.",
+      "gold_source_id": "gutenberg-38536",
+      "gold_page": "gutenberg-38536-u014",
+      "evidence_quote": "numerator of a fractional exponent indicates the power, the\ndenominator indicates the root",
+      "filter": null
+    },
+    {
+      "id": "D11",
+      "split": "dev",
+      "topic": "Exponents",
+      "question_type": "direct",
+      "question": "Cuốn sách kết luận a^0 bằng bao nhiêu?",
+      "expected_answer": "1.",
+      "gold_source_id": "gutenberg-38536",
+      "gold_page": "gutenberg-38536-u014",
+      "evidence_quote": "Therefore a^0 = 1. Axiom I.",
+      "filter": null
+    },
+    {
+      "id": "D12",
+      "split": "dev",
+      "topic": "Exponents",
+      "question_type": "paraphrase",
+      "question": "Dựa theo định nghĩa số mũ âm của tài liệu, a^(-m) được viết thành phân số nào?",
+      "expected_answer": "1/(a^m).",
+      "gold_source_id": "gutenberg-38536",
+      "gold_page": "gutenberg-38536-u014",
+      "evidence_quote": "Therefore a^(-m) = 1/(a^m).",
+      "filter": null
+    },
+    {
+      "id": "D13",
+      "split": "dev",
+      "topic": "Exponents",
+      "question_type": "direct",
+      "question": "Theo ví dụ của số mũ phân số, a^(2/3) được biểu diễn dưới dạng căn nào?",
+      "expected_answer": "[a^2]^(1/3), tức căn bậc ba của a^2.",
+      "gold_source_id": "gutenberg-38536",
+      "gold_page": "gutenberg-38536-u014",
+      "evidence_quote": "Therefore a^(2/3) = [a^2]^(1/3).",
+      "filter": null
+    },
+    {
+      "id": "D14",
+      "split": "dev",
+      "topic": "Radicals",
+      "question_type": "direct",
+      "question": "Trong mục Radicals, công thức nhân hai căn bậc n của a và b được viết như thế nào?",
+      "expected_answer": "a^(1/n) . b^(1/n) = [ab]^(1/n).",
+      "gold_source_id": "gutenberg-38536",
+      "gold_page": "gutenberg-38536-u003",
+      "evidence_quote": "a^(1/n) . b^(1/n) = [ab]^(1/n).",
+      "additional_gold_sources": [
+        {
+          "gold_source_id": "gutenberg-38536",
+          "gold_page": "gutenberg-38536-u017",
+          "evidence_quote": "a^(1/n) . b^(1/n) = [ab]^(1/n)."
+        }
+      ],
+      "filter": null
+    },
+    {
+      "id": "D15",
+      "split": "dev",
+      "topic": "Radicals",
+      "question_type": "condition",
+      "question": "Trong mục Radicals, sau khi giải một phương trình chứa căn, cần làm gì để tránh chấp nhận nghiệm không hợp lệ?",
+      "expected_answer": "Luôn kiểm tra lại kết quả để tránh nghiệm ngoại lai.",
+      "gold_source_id": "gutenberg-38536",
+      "gold_page": "gutenberg-38536-u003",
+      "evidence_quote": "Radical equations. _Always_ check results to avoid extraneous roots.",
+      "filter": {
+        "field": "section",
+        "value": "RADICALS",
+        "provided_by": "question"
+      }
+    },
+    {
+      "id": "D16",
+      "split": "dev",
+      "topic": "Factoring",
+      "question_type": "paraphrase",
+      "question": "Theo phần giải thích về chọn trường hợp phân tích nhân tử, dấu hiệu ban đầu nào thường gợi ý các trường hợp có thể áp dụng?",
+      "expected_answer": "Số hạng của biểu thức thường gợi ý trường hợp có thể áp dụng.",
+      "gold_source_id": "gutenberg-38536",
+      "gold_page": "gutenberg-38536-u006",
+      "evidence_quote": "The number of terms in an expression usually gives the clue to the\npossible cases under which it may come.",
+      "filter": null
+    },
+    {
+      "id": "D17",
+      "split": "dev",
+      "topic": "Highest common factor and lowest common multiple",
+      "question_type": "direct",
+      "question": "Trong ví dụ tìm H.C.F. và L.C.M., tài liệu cho kết quả nào cho hai biểu thức a^2 + 2a - 3 và a^2 + 7a + 12 (cùng với thừa số a^4 + 27a)?",
+      "expected_answer": "H.C.F. = a + 3; L.C.M. = (a + 3)(a - 1)(a + 4)a(a^2 - 3a + 9).",
+      "gold_source_id": "gutenberg-38536",
+      "gold_page": "gutenberg-38536-u002",
+      "evidence_quote": "H. C. F. = a + 3.\n\nL. C. M. = (a + 3)(a - 1)(a + 4)a(a^2 - 3a + 9).",
+      "filter": null
+    },
+    {
+      "id": "D18",
+      "split": "dev",
+      "topic": "Special multiplication rules",
+      "question_type": "direct",
+      "question": "Tài liệu cho thương (x^3 - y^3)/(x - y) bằng biểu thức nào?",
+      "expected_answer": "x^2 + xy + y^2.",
+      "gold_source_id": "gutenberg-38536",
+      "gold_page": "gutenberg-38536-u001",
+      "evidence_quote": "(x^3 - y^3)/(x - y) = x^2 + xy + y^2.",
+      "filter": null
+    },
+    {
+      "id": "T01",
+      "split": "test",
+      "topic": "Order of operations",
+      "question_type": "direct",
+      "question": "Theo thứ tự thực hiện phép toán trong sách, sau khi nâng lũy thừa và lấy căn thì đến phép toán nào, và cuối cùng là phép nào?",
+      "expected_answer": "Tiếp theo là nhân và chia; cuối cùng là cộng và trừ.",
+      "gold_source_id": "gutenberg-38536",
+      "gold_page": "gutenberg-38536-u005",
+      "evidence_quote": "Next, multiplication and division.\nLast of all, addition and subtraction.",
+      "filter": null
+    },
+    {
+      "id": "T02",
+      "split": "test",
+      "topic": "Quadratic equations",
+      "question_type": "condition",
+      "question": "Chỉ xét mục Theory of Quadratic Equations: nếu biệt thức b^2 - 4ac âm, nghiệm có tính chất gì?",
+      "expected_answer": "Hai nghiệm là nghiệm ảo và không bằng nhau.",
+      "gold_source_id": "gutenberg-38536",
+      "gold_page": "gutenberg-38536-u024",
+      "evidence_quote": "If b^2 - 4ac is negative, the roots are imaginary and unequal.",
+      "filter": {
+        "field": "section",
+        "value": "THE THEORY OF QUADRATIC EQUATIONS",
+        "provided_by": "question"
+      }
+    },
+    {
+      "id": "T03",
+      "split": "test",
+      "topic": "Arithmetic progression",
+      "question_type": "direct",
+      "question": "Trong mục Arithmetical Progression, công thức nào cho số hạng thứ n (ký hiệu số hạng cuối là l, số hạng đầu là a, công sai là d)?",
+      "expected_answer": "l = a + (n - 1)d.",
+      "gold_source_id": "gutenberg-38536",
+      "gold_page": "gutenberg-38536-u029",
+      "evidence_quote": "l = a + (n - 1)d,",
+      "additional_gold_sources": [
+        {
+          "gold_source_id": "gutenberg-38536",
+          "gold_page": "gutenberg-38536-u005",
+          "evidence_quote": "{ l = a + (n - 1)d."
+        }
+      ],
+      "filter": {
+        "field": "section",
+        "value": "ARITHMETICAL PROGRESSION",
+        "provided_by": "question"
+      }
+    },
+    {
+      "id": "T04",
+      "split": "test",
+      "topic": "Geometric progression",
+      "question_type": "direct",
+      "question": "Trong mục Geometrical Progression, công thức sách nêu cho tổng vô hạn S[infinity] là gì?",
+      "expected_answer": "S_{[infinity]} = a/(1 - r), theo ký hiệu được in trong sách.",
+      "gold_source_id": "gutenberg-38536",
+      "gold_page": "gutenberg-38536-u030",
+      "evidence_quote": "{ IV. S_{[infinity]} = (a)/(1 - r).",
+      "additional_gold_sources": [
+        {
+          "gold_source_id": "gutenberg-38536",
+          "gold_page": "gutenberg-38536-u005",
+          "evidence_quote": "{ S[infinity] = (a)/(1 - r)."
+        }
+      ],
+      "filter": {
+        "field": "section",
+        "value": "GEOMETRICAL PROGRESSION",
+        "provided_by": "question"
+      }
+    },
+    {
+      "id": "T05",
+      "split": "test",
+      "topic": "Binomial theorem",
+      "question_type": "direct",
+      "question": "Theo công thức trong mục The Binomial Theorem, biểu thức nào cho số hạng thứ (r + 1) trong khai rộng (a + b)^n?",
+      "expected_answer": "[n(n - 1)(n - 2)...(n - r + 1)]/[1.2.3.4 ... r] a^(n - r)b^r.",
+      "gold_source_id": "gutenberg-38536",
+      "gold_page": "gutenberg-38536-u031",
+      "evidence_quote": "(r + 1)th term\n= [n(n - 1)(n - 2)...(n - r + 1)]/[1.2.3.4 ... r] a^(n - r)b^r.",
+      "filter": null
+    },
+    {
+      "id": "T06",
+      "split": "test",
+      "topic": "Ratio and proportion",
+      "question_type": "direct",
+      "question": "Trong mục Ratio and Proportion, định lý đầu tiên nêu quan hệ nào giữa tích hai số trung bình và tích hai số biên của một tỷ lệ thức?",
+      "expected_answer": "Tích hai số trung bình bằng tích hai số biên.",
+      "gold_source_id": "gutenberg-38536",
+      "gold_page": "gutenberg-38536-u004",
+      "evidence_quote": "Product of means equals product of extremes.",
+      "filter": {
+        "field": "section",
+        "value": "RATIO AND PROPORTION",
+        "provided_by": "question"
+      }
+    }
+  ]
+}

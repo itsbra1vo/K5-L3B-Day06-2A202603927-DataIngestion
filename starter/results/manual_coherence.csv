@@ -1,0 +1,930 @@
+﻿strategy,source_page,source_offset,chunk_id,excerpt,score_0_to_2,reason
+A,gutenberg-38536-u001,0,bef48434d42e27924291e053,"OUTLINE OF ELEMENTARY AND INTERMEDIATE ALGEBRA
+
+~Important Definitions~
+
+Factors; coefficient; exponent; power; base; term; algebraic
+sum; similar terms; degree; homogeneous expression; linear
+equation; root of an equation; root of an expression; identity;
+conditional equation; prime quantity; highest common factor (H.
+C. F.); lowest common multiple (L. C. M.); involution;
+evolution; imaginary number; real number; rational; similar
+radicals; binomial surd; pure quadratic equation; affected
+quadr",0,Ends mid-word at ?affected quadr?; the definition/list is cut before the idea completes.
+A,gutenberg-38536-u002,0,5746fc7095d1a05d4b970e15,"2. Trinomial that is a perfect square.
+x^2 +- 2xy + y^2 = (x +- y)^2.
+
+3. The difference of two squares.
+(a) Two terms.
+x^2 - y^2 = (x + y)(x - y).
+(b) Four terms.
+x^2 + 2xy + y^2 - m^2 = (x + y + m)(x + y - m).
+(c) Six terms.
+x^2 + 2xy + y^2 - p^2 - 2pq - q^2
+= [(x + y) + (p + q)][(x + y) - (p + q)].
+(d) Incomplete square.
+x^4 + x^2 y^2 + y^4
+= x^4 + 2x^2 y^2 + y^4 - x^2 y^2
+= (x^2 + y^2 + xy)(x^2 + y^2 - xy).
+
+4. Trinomial of the form x^2 + bx + c.
+x^2 - 5x + 6 = (x - 2)(x - 3).
+
+5. Trinomial",1,"The factoring examples are understandable, but it starts mid-outline and ends at an unfinished ?5. Trinomial? heading."
+A,gutenberg-38536-u003,0,7e543bf024c788c28279e915,"Expansion of
+monomials and fractions.
+binomials.
+trinomials.
+
+~Evolution~
+
+Law of signs.
+
+Evolution of monomials and fractions.
+
+Square root of algebraic expressions.
+
+Square root of arithmetical numbers.
+
+Optional
+Cube root of algebraic expressions.
+Cube root of arithmetical numbers.
+
+~Theory of Exponents~
+
+Proofs: a^m x a^n = a^(m + n);
+(a^m)/(a^n) = a^(m - n);
+(a^m)^n = a^(mn);
+[a^(mn)]^(1/n) = a^m;
+(a/b)^n = (a^n)/(b^n);
+(abc)^n = a^n b^n c^n.
+
+Meaning of
+fractional exponent.
+zero exponent.",2,The outline topics and exponent laws are readable as a compact list; no sentence is cut.
+A,gutenberg-38536-u004,0,49603f6d152bda98b9f5fb70,"Properties of quadratics
+r_1 = -b/2a + ([b^2 - 4ac]^(1/2))/(2a).
+r_2 = -b/2a - ([b^2 - 4ac]^(1/2))/(2a).
+Then
+r_1 + r_2 = -b/a.
+r_1 . r_2 = c/a.
+Discriminant, b^2 - 4ac, and its discussion.
+Nature or character of the roots.
+
+~Simultaneous Quadratics~
+
+CASE I.
+
+One equation linear.
+
+The other quadratic.
+3x - y = 12,
+x^2 - y^2 = 16.
+
+CASE II.
+
+Both equations homogeneous and of the second degree.
+x^2 - xy + y^2 = 21,
+y^2 - 2xy = -15.
+
+CASE III.
+
+Any two of the quantities x + y, x^2 + y^2, xy, x^3 +",2,The quadratic properties and worked system examples are understandable; the sample ends within a longer outline.
+A,gutenberg-38536-u005,0,a6a3b979ffa8c6e48659fe04,"~Progressions~
+
+Development of formulas.
+{ l = ar^(n - 1).
+{ l = a + (n - 1)d.            { S = (ar^n - a)/(r - 1).
+{ S = (n/2)(a + l).            { S = (rl - a)/(r - 1).
+{ S = (n/2)[2a + (n - 1)d].    { S[infinity] = (a)/(1 - r).
+
+Insertion of means
+Arithmetical.
+Geometrical.
+
+~Binomial Theorem~
+
+Review of binomial theorem laws. See Involution.
+
+Expansion of (a + b)^n.
+
+Finding any term by
+key number method.
+r^(th) or (r + 1)^(th) term method.
+
+A REVIEW OF ALGEBRA
+
+ORDER OF OPERATIONS, EVALUATI",2,Progression formulas and adjacent binomial topics are understandable as an outline.
+A,gutenberg-38536-u006,0,3a00111e3c12dc5f46ce7431,"3. (2v + 3w)(2v - 3w).
+
+4. (x + 3ts)(x - 7ts).
+
+5. (2l + 3g)(4l - 11g).
+
+6. (a - (2b)/3 + c - d)^2.
+
+7. (x^3 + 8m^3)/(x + 2m).
+
+8. (y^3 - 27k^(3m))/(y - 3k^m).
+
+9. (c^5 - d^5)/(c - d).
+
+10. (e^5 + d^5)/(e + d).
+
+11. (x^4 - y^4)/(x - y).
+
+12. (x^4 - y^4)/(x + y).
+
+13. (a - .03)(a - .0007).
+
+14. (g^n - 1/2)(g^n + 3/4).
+
+15. (t^7 - v^(7/2))/(t - v^(1/2)).
+
+16. (k^32 + 1)(k^16 +1)(k^8 + 1)(k^4 +1)(k^2 +1)(k + 1)(k - 1).
+
+17. [(a + b) + (c + d)][(a + b) - (c + d)].
+
+18. (p - q + r - s)(p - q - r + s)",1,Starts at exercise 3 with no instruction; expressions are readable but the task context is missing.
+A,gutenberg-38536-u007,0,802d76b45dfd7a81883dd3a9,"CASE III. The difference of two squares.
+
+_A._ Two terms. x^2 - y^2 = (x + y)(x - y).
+
+_B._ Four terms.
+
+x^2 + 2xy + y^2 - m^2 = (x^2 + 2xy + y^2) - m^2
+= (x + y + m)(x + y - m)
+
+_C._ Six terms. x^2 - 2xy + y^2 - m^2 - 2mn - n^2
+= (x^2 - 2xy + y^2) - (m^2 + 2mn + n^2)
+= (x - y)^2 - (m + n)^2
+= [(x - y) + (m + n)][(x - y) - (m + n)].
+
+_D._ An incomplete square. Three terms, and
+4th powers or multiples of 4.
+
+c^4 + c^2 d^2 + d^4 = c^4 + 2c^2 d^2 + d^4 - c^2 d^2
+= (c^2 + d^2)^2 - c^2 d^2
+= (c^2 + d",1,"The difference-of-squares cases are clear, but the final factorization is cut mid-expression."
+A,gutenberg-38536-u008,0,c9788227d18ec8fd4d105a71,"4. m^2 + n^2 - (1 + 2mn).
+
+5. -x^2 + 2x - 1 + x^4.
+
+6. x^(16) - y^(16).  (Five factors.)
+
+7. (x + 1)^2 - 5x - 29.
+
+8. x^4 + x^2 y^2 + y^4.
+
+9. x^4 - 11x^2 + 1.
+
+10. x^(2m) + 2 + 1/(x^(2m)).
+
+11. x^(6m) + 13x^(3m) + 12.
+
+12. 4a^2 b^2 - (a^2 + b^2 - c^2)^2.
+
+13. (x^2 - x - 6)(x^2 - x - 20).
+
+14. a^4 - 8a - a^3 + 8.
+
+15. p^3 + 7p^2 + 14p + 8.
+
+16. 18a^2 b + 60ab^2 + 50b^3.
+
+17. x^3 - 7x + 6.
+
+18. 24c^2 d^2 - 47cd - 75.
+
+19. (a^2 - b^2)^2 - (a^2 - ab)^2.
+
+20. a^2 x^3 - (8a^2)/(y^3) - x^3 + 8/(y^3).",1,Starts at exercise 4 without the instruction and is a list of problems rather than a self-contained explanation.
+A,gutenberg-38536-u009,0,4ecc80dc94dc558a63912277,"5. x^5 - 2x^4 + x^2,
+2x^4 - 4x^3 - 4x + 6.                                 (_Yale._)
+
+6. x^2 + a^2 - b^2 + 2ax,
+x^2 - a^2 + b^2 + 2bx,
+x^2 - a^2 - b^2 - 2ab.                             (_Harvard._)
+
+7. 2x^2 - x - 15,
+3x^2 - 11x + 6,
+2x^3 - x^2 - 13x - 6.               (_College Entrance Board._)
+
+8. (tv - v^2)^3,
+v^3 - t^2v,
+t^3 - v^3,
+v^2 - 2vt + t^2.
+
+Pick out the H. C. F. and the L. C. M. of the following:
+
+9. 8(x^2 + y)^(32) (t^2 + z)^(19) (m - n^3)^(14),
+12(x^2 + y)^(23) (t^2 + z)^(41) (m",1,"The exercise list is understandable in part, but the final expression is cut off."
+A,gutenberg-38536-u010,0,1ad09bad2ac2e194851aff49,"7. 72/121 x 55/56 x 77/90.
+
+8. (b - y)/(a^3 + y^3) x (ca + cy)/(b^2 + by)
+x (b^6 + y^6)/(b^2 + y^2) x b/c.
+
+Divide:
+
+9. (12/25) / (6/50).
+
+10. [1 - (ab)/(a^2 - ab + b^2)] [1 - (ab)/(a^2 + 2ab + b^2)]
+/ (a^3 - b^3)/(a^3 + b^3).                           (_Yale._)
+
+11. [(x^4 - y^4)/(x^2 - y^2) / (x + y)/(x^2 - xy)]
+/ [(x^2 + y^2)/(x - y) / (x + y)/(xy - y^2)].   (_Sheffield._)
+
+Simplify:
+
+12. [(4y)/x - (15y^2)/(x^2) + 4] / [4 - (16y)/x + (15y^2)/(x^2)]
+x [3 - (4x + 20y)/(2x + 5y)].
+
+~Reference:~ T",1,"The arithmetic exercises are partly legible, but the reference heading is cut after ?T?."
+B,gutenberg-38536-u001,0,9c9ea845b6238800ed04a93e,"OUTLINE OF ELEMENTARY AND INTERMEDIATE ALGEBRA
+
+~Important Definitions~
+
+Factors; coefficient; exponent; power; base; term; algebraic
+sum; similar terms; degree; homogeneous expression; linear
+equation; root of an equation; root of an expression; identity;
+conditional equation; prime quantity; highest common factor (H.
+C. F.); lowest common multiple (L. C. M.); involution;
+evolution; imaginary number; real number; rational; similar
+radicals; binomial surd; pure quadratic equation; affected
+quadratic equation; equation in the quadratic form; simultaneous
+linear equations; simultaneous quadratic equations;
+discriminant; symmetrical expression; ratio; proportion; fourth
+proportional; third proportional; mean proportional; arithmetic
+progression; geometric progression; S [infinity]
+
+~Special Rules for Multiplication and Division~
+
+1. Square of the sum of two quantities.
+(x + y)^2.",2,"The outline and definition list are readable, and the final square identity is complete."
+B,gutenberg-38536-u002,0,05bc811da755b706402ae426,"2. Trinomial that is a perfect square.
+x^2 +- 2xy + y^2 = (x +- y)^2.
+
+3. The difference of two squares.
+(a) Two terms.
+x^2 - y^2 = (x + y)(x - y).
+(b) Four terms.
+x^2 + 2xy + y^2 - m^2 = (x + y + m)(x + y - m).
+(c) Six terms.
+x^2 + 2xy + y^2 - p^2 - 2pq - q^2
+= [(x + y) + (p + q)][(x + y) - (p + q)].
+(d) Incomplete square.
+x^4 + x^2 y^2 + y^4
+= x^4 + 2x^2 y^2 + y^4 - x^2 y^2
+= (x^2 + y^2 + xy)(x^2 + y^2 - xy).
+
+4. Trinomial of the form x^2 + bx + c.
+x^2 - 5x + 6 = (x - 2)(x - 3).
+
+5. Trinomial of the form ax^2 + bx + c.
+20x^2 + 7x - 6 = (4x + 3)(5x - 2).
+
+6. Sum or difference of
+two cubes. See ""Special Rules,"" 7 and 8.
+two like powers. See ""Special Rules,"" 9.
+
+7. Common polynomial factor. Grouping.
+t^2 p + t^2 q - 2mp - 2mq
+= t^2(p + q) - 2m(p + q) = (p + q)(t^2 - 2m).
+
+8. Factor Theorem.
+x^3 + 17x - 18 = (x - 1)(x^2 + x + 18).
+
+~H. C. F. and L. C. M.~
+
+a^2 + 2a - 3 = (a + 3)(a - 1).",1,"Factoring examples are mostly clear, but the chunk ends at an unfinished ?5. Trinomial? heading."
+B,gutenberg-38536-u003,0,aa845d15b916958619dd63a1,"Expansion of
+monomials and fractions.
+binomials.
+trinomials.
+
+~Evolution~
+
+Law of signs.
+
+Evolution of monomials and fractions.
+
+Square root of algebraic expressions.
+
+Square root of arithmetical numbers.
+
+Optional
+Cube root of algebraic expressions.
+Cube root of arithmetical numbers.
+
+~Theory of Exponents~
+
+Proofs: a^m x a^n = a^(m + n);
+(a^m)/(a^n) = a^(m - n);
+(a^m)^n = a^(mn);
+[a^(mn)]^(1/n) = a^m;
+(a/b)^n = (a^n)/(b^n);
+(abc)^n = a^n b^n c^n.
+
+Meaning of
+fractional exponent.
+zero exponent.
+negative exponent.
+
+Four rules
+To multiply quantities having the same base, add exponents.
+To divide quantities having the same base, subtract
+exponents.
+To raise to a power, multiply exponents.
+To extract a root, divide the exponent of the power by the
+index of the root.
+
+~Radicals~
+
+Radical in its simplest form.",2,The outline lists exponent rules and transitions to radicals without cutting a rule.
+B,gutenberg-38536-u004,0,7a3a852090064e9ecd78ceb2,"Properties of quadratics
+r_1 = -b/2a + ([b^2 - 4ac]^(1/2))/(2a).
+r_2 = -b/2a - ([b^2 - 4ac]^(1/2))/(2a).
+Then
+r_1 + r_2 = -b/a.
+r_1 . r_2 = c/a.
+Discriminant, b^2 - 4ac, and its discussion.
+Nature or character of the roots.
+
+~Simultaneous Quadratics~
+
+CASE I.
+
+One equation linear.
+
+The other quadratic.
+3x - y = 12,
+x^2 - y^2 = 16.
+
+CASE II.
+
+Both equations homogeneous and of the second degree.
+x^2 - xy + y^2 = 21,
+y^2 - 2xy = -15.
+
+CASE III.
+
+Any two of the quantities x + y, x^2 + y^2, xy, x^3 + y^3,
+x^3 - y^3, x - y, x^2 +- xy + y^2, etc., given.
+x^2 + y^2 = 41,
+x + y = 9.
+
+CASE IV.
+Both equations symmetrical or symmetrical except for sign.
+Usually one equation of high degree, the other of the first
+degree.
+x^5 + y^5 = 242,
+x + y = 2.
+
+CASE V. Special Devices
+
+I. Solve for a compound unknown, like xy, x + y, (1)/(xy),
+etc., first.
+x^2y^2 + xy = 6,
+x + 2y = -5.",2,Quadratic properties and simultaneous-equation cases are understandable and end at a complete example.
+B,gutenberg-38536-u005,0,50fc724f82fbd17490f9577d,"~Progressions~
+
+Development of formulas.
+{ l = ar^(n - 1).
+{ l = a + (n - 1)d.            { S = (ar^n - a)/(r - 1).
+{ S = (n/2)(a + l).            { S = (rl - a)/(r - 1).
+{ S = (n/2)[2a + (n - 1)d].    { S[infinity] = (a)/(1 - r).
+
+Insertion of means
+Arithmetical.
+Geometrical.
+
+~Binomial Theorem~
+
+Review of binomial theorem laws. See Involution.
+
+Expansion of (a + b)^n.
+
+Finding any term by
+key number method.
+r^(th) or (r + 1)^(th) term method.",2,"Progression formulas and the binomial-term outline form a readable, complete summary."
+B,gutenberg-38536-u006,0,963e8da290460d13babbcde8,"3. (2v + 3w)(2v - 3w).
+
+4. (x + 3ts)(x - 7ts).
+
+5. (2l + 3g)(4l - 11g).
+
+6. (a - (2b)/3 + c - d)^2.
+
+7. (x^3 + 8m^3)/(x + 2m).
+
+8. (y^3 - 27k^(3m))/(y - 3k^m).
+
+9. (c^5 - d^5)/(c - d).
+
+10. (e^5 + d^5)/(e + d).
+
+11. (x^4 - y^4)/(x - y).
+
+12. (x^4 - y^4)/(x + y).
+
+13. (a - .03)(a - .0007).
+
+14. (g^n - 1/2)(g^n + 3/4).
+
+15. (t^7 - v^(7/2))/(t - v^(1/2)).
+
+16. (k^32 + 1)(k^16 +1)(k^8 + 1)(k^4 +1)(k^2 +1)(k + 1)(k - 1).
+
+17. [(a + b) + (c + d)][(a + b) - (c + d)].
+
+18. (p - q + r - s)(p - q - r + s).
+
+19. (3m - n - l + 2r)(3m + n - l - 2r).
+
+20. (x + 5)(x - 2)(x - 5)(x + 2).
+
+21. (a^2 + b^2 - c - 2d + 3e)^2.
+
+22. (s + t - 2v/5 + 3w/6 + z^2)^2.
+
+23. (x^5 + 32)/(x + 2).
+
+~References:~ The chapter on Special Rules of Multiplication and
+Division in any algebra.
+Special Rules of Multiplication and Division in the
+Outline in the front of the book.",1,"The exercise expressions are readable, but the initial instruction is outside this chunk."
+B,gutenberg-38536-u007,0,f651a6e189fa0cd7887ce635,"CASE III. The difference of two squares.
+
+_A._ Two terms. x^2 - y^2 = (x + y)(x - y).
+
+_B._ Four terms.
+
+x^2 + 2xy + y^2 - m^2 = (x^2 + 2xy + y^2) - m^2
+= (x + y + m)(x + y - m)
+
+_C._ Six terms. x^2 - 2xy + y^2 - m^2 - 2mn - n^2
+= (x^2 - 2xy + y^2) - (m^2 + 2mn + n^2)
+= (x - y)^2 - (m + n)^2
+= [(x - y) + (m + n)][(x - y) - (m + n)].
+
+_D._ An incomplete square. Three terms, and
+4th powers or multiples of 4.
+
+c^4 + c^2 d^2 + d^4 = c^4 + 2c^2 d^2 + d^4 - c^2 d^2
+= (c^2 + d^2)^2 - c^2 d^2
+= (c^2 + d^2 + cd)(c^2 + d^2 - cd).
+
+CASE IV. A trinomial of the form x^2 + bx + c. Three terms.
+
+x^2 + x - 30 = (x + 6)(x - 5).
+
+CASE V. A trinomial of the form ax^2 + bx + c. Three terms.
+
+20x^2 + 7x - 6 = (4x + 3)(5x - 2).
+
+CASE VI.
+
+_A._ The sum or difference of two cubes. Two terms.
+
+x^3 + y^3 = (x + y)(x^2 - xy + y^2);
+x^3 - y^3 = (x - y)(x^2 + xy + y^2).",2,The case heading and factorization identities are self-contained and complete.
+B,gutenberg-38536-u008,0,b261479c1ac0a8861a0b5b54,"4. m^2 + n^2 - (1 + 2mn).
+
+5. -x^2 + 2x - 1 + x^4.
+
+6. x^(16) - y^(16).  (Five factors.)
+
+7. (x + 1)^2 - 5x - 29.
+
+8. x^4 + x^2 y^2 + y^4.
+
+9. x^4 - 11x^2 + 1.
+
+10. x^(2m) + 2 + 1/(x^(2m)).
+
+11. x^(6m) + 13x^(3m) + 12.
+
+12. 4a^2 b^2 - (a^2 + b^2 - c^2)^2.
+
+13. (x^2 - x - 6)(x^2 - x - 20).
+
+14. a^4 - 8a - a^3 + 8.
+
+15. p^3 + 7p^2 + 14p + 8.
+
+16. 18a^2 b + 60ab^2 + 50b^3.
+
+17. x^3 - 7x + 6.
+
+18. 24c^2 d^2 - 47cd - 75.
+
+19. (a^2 - b^2)^2 - (a^2 - ab)^2.
+
+20. a^2 x^3 - (8a^2)/(y^3) - x^3 + 8/(y^3).
+
+21. gt - gk + gl^2 + xt - xk + xl^2.
+
+22. (m - n)(2a^2 - 2ab) + (n - m)(2ab - 2b^2).
+
+23. a^2 - x^2 - y^2 + b^2 + 2ab + 2xy.
+
+24. (2c^2 + 3d^2)a + (2a^2 + 3c^2)d.
+
+25. (n(n - 1))/(1 . 2) a^(n - 2) b^2
++ (n(n - 1)(n - 2))/(1 . 2 . 3) a^(n - 3) b^3.
+
+26. (x - x^2)^3 + (x^2 - 1)^3 + (1 - x)^3.            (_M. I. T._)
+
+27. (27y^3)^2 - 2(27y^3)(8b^3) + (8b^3)^2.          (_Princeton._)",1,"Starts midway through a problem list; exercises are legible, but the instruction/context is absent."
+B,gutenberg-38536-u009,0,9f0424856b49f03b5470a338,"5. x^5 - 2x^4 + x^2,
+2x^4 - 4x^3 - 4x + 6.                                 (_Yale._)
+
+6. x^2 + a^2 - b^2 + 2ax,
+x^2 - a^2 + b^2 + 2bx,
+x^2 - a^2 - b^2 - 2ab.                             (_Harvard._)
+
+7. 2x^2 - x - 15,
+3x^2 - 11x + 6,
+2x^3 - x^2 - 13x - 6.               (_College Entrance Board._)
+
+8. (tv - v^2)^3,
+v^3 - t^2v,
+t^3 - v^3,
+v^2 - 2vt + t^2.
+
+Pick out the H. C. F. and the L. C. M. of the following:
+
+9. 8(x^2 + y)^(32) (t^2 + z)^(19) (m - n^3)^(14),
+12(x^2 + y)^(23) (t^2 + z)^(41) (m - n^3)^(17),
+18(m - n^3)^(11) (x^2 + y)^(39) (t^2 + z)^(37).
+
+10. 17ax^3 (y + z)^(10) (y - x)^(19) (x + z)^(27),
+34a^2 x^4 (y + z)^(11) (y - x)^(21) (x + z)^(13),
+51a^3 x^5 (y + z)^4 (x + z)^(32) (y - x)^(29).
+
+~Reference:~ The chapter on H. C. F. and L. C. M. in any algebra.",1,The mixed exercise list starts mid-series; its H.C.F./L.C.M. instruction appears only later in the chunk.
+B,gutenberg-38536-u010,0,b6ef2c30d7099dd596b394f0,"7. 72/121 x 55/56 x 77/90.
+
+8. (b - y)/(a^3 + y^3) x (ca + cy)/(b^2 + by)
+x (b^6 + y^6)/(b^2 + y^2) x b/c.
+
+Divide:
+
+9. (12/25) / (6/50).
+
+10. [1 - (ab)/(a^2 - ab + b^2)] [1 - (ab)/(a^2 + 2ab + b^2)]
+/ (a^3 - b^3)/(a^3 + b^3).                           (_Yale._)
+
+11. [(x^4 - y^4)/(x^2 - y^2) / (x + y)/(x^2 - xy)]
+/ [(x^2 + y^2)/(x - y) / (x + y)/(xy - y^2)].   (_Sheffield._)
+
+Simplify:
+
+12. [(4y)/x - (15y^2)/(x^2) + 4] / [4 - (16y)/x + (15y^2)/(x^2)]
+x [3 - (4x + 20y)/(2x + 5y)].
+
+~Reference:~ The chapter on Fractions in any algebra.",1,"Starts at exercise 7 without an instruction; Divide/Simplify labels appear later, so only part of the list has clear task context."
+C,gutenberg-38536-u001,0,9c9ea845b6238800ed04a93e,"OUTLINE OF ELEMENTARY AND INTERMEDIATE ALGEBRA
+
+~Important Definitions~
+
+Factors; coefficient; exponent; power; base; term; algebraic
+sum; similar terms; degree; homogeneous expression; linear
+equation; root of an equation; root of an expression; identity;
+conditional equation; prime quantity; highest common factor (H.
+C. F.); lowest common multiple (L. C. M.); involution;
+evolution; imaginary number; real number; rational; similar
+radicals; binomial surd; pure quadratic equation; affected
+quadratic equation; equation in the quadratic form; simultaneous
+linear equations; simultaneous quadratic equations;
+discriminant; symmetrical expression; ratio; proportion; fourth
+proportional; third proportional; mean proportional; arithmetic
+progression; geometric progression; S [infinity]
+
+~Special Rules for Multiplication and Division~
+
+1. Square of the sum of two quantities.
+(x + y)^2.",2,"The outline and definition list are readable, and the final square identity is complete."
+C,gutenberg-38536-u002,0,05bc811da755b706402ae426,"2. Trinomial that is a perfect square.
+x^2 +- 2xy + y^2 = (x +- y)^2.
+
+3. The difference of two squares.
+(a) Two terms.
+x^2 - y^2 = (x + y)(x - y).
+(b) Four terms.
+x^2 + 2xy + y^2 - m^2 = (x + y + m)(x + y - m).
+(c) Six terms.
+x^2 + 2xy + y^2 - p^2 - 2pq - q^2
+= [(x + y) + (p + q)][(x + y) - (p + q)].
+(d) Incomplete square.
+x^4 + x^2 y^2 + y^4
+= x^4 + 2x^2 y^2 + y^4 - x^2 y^2
+= (x^2 + y^2 + xy)(x^2 + y^2 - xy).
+
+4. Trinomial of the form x^2 + bx + c.
+x^2 - 5x + 6 = (x - 2)(x - 3).
+
+5. Trinomial of the form ax^2 + bx + c.
+20x^2 + 7x - 6 = (4x + 3)(5x - 2).
+
+6. Sum or difference of
+two cubes. See ""Special Rules,"" 7 and 8.
+two like powers. See ""Special Rules,"" 9.
+
+7. Common polynomial factor. Grouping.
+t^2 p + t^2 q - 2mp - 2mq
+= t^2(p + q) - 2m(p + q) = (p + q)(t^2 - 2m).
+
+8. Factor Theorem.
+x^3 + 17x - 18 = (x - 1)(x^2 + x + 18).
+
+~H. C. F. and L. C. M.~
+
+a^2 + 2a - 3 = (a + 3)(a - 1).",1,"Factoring examples are mostly clear, but the chunk ends at an unfinished ?5. Trinomial? heading."
+C,gutenberg-38536-u003,0,aa845d15b916958619dd63a1,"Expansion of
+monomials and fractions.
+binomials.
+trinomials.
+
+~Evolution~
+
+Law of signs.
+
+Evolution of monomials and fractions.
+
+Square root of algebraic expressions.
+
+Square root of arithmetical numbers.
+
+Optional
+Cube root of algebraic expressions.
+Cube root of arithmetical numbers.
+
+~Theory of Exponents~
+
+Proofs: a^m x a^n = a^(m + n);
+(a^m)/(a^n) = a^(m - n);
+(a^m)^n = a^(mn);
+[a^(mn)]^(1/n) = a^m;
+(a/b)^n = (a^n)/(b^n);
+(abc)^n = a^n b^n c^n.
+
+Meaning of
+fractional exponent.
+zero exponent.
+negative exponent.
+
+Four rules
+To multiply quantities having the same base, add exponents.
+To divide quantities having the same base, subtract
+exponents.
+To raise to a power, multiply exponents.
+To extract a root, divide the exponent of the power by the
+index of the root.
+
+~Radicals~
+
+Radical in its simplest form.",2,The outline lists exponent rules and transitions to radicals without cutting a rule.
+C,gutenberg-38536-u004,0,7a3a852090064e9ecd78ceb2,"Properties of quadratics
+r_1 = -b/2a + ([b^2 - 4ac]^(1/2))/(2a).
+r_2 = -b/2a - ([b^2 - 4ac]^(1/2))/(2a).
+Then
+r_1 + r_2 = -b/a.
+r_1 . r_2 = c/a.
+Discriminant, b^2 - 4ac, and its discussion.
+Nature or character of the roots.
+
+~Simultaneous Quadratics~
+
+CASE I.
+
+One equation linear.
+
+The other quadratic.
+3x - y = 12,
+x^2 - y^2 = 16.
+
+CASE II.
+
+Both equations homogeneous and of the second degree.
+x^2 - xy + y^2 = 21,
+y^2 - 2xy = -15.
+
+CASE III.
+
+Any two of the quantities x + y, x^2 + y^2, xy, x^3 + y^3,
+x^3 - y^3, x - y, x^2 +- xy + y^2, etc., given.
+x^2 + y^2 = 41,
+x + y = 9.
+
+CASE IV.
+Both equations symmetrical or symmetrical except for sign.
+Usually one equation of high degree, the other of the first
+degree.
+x^5 + y^5 = 242,
+x + y = 2.
+
+CASE V. Special Devices
+
+I. Solve for a compound unknown, like xy, x + y, (1)/(xy),
+etc., first.
+x^2y^2 + xy = 6,
+x + 2y = -5.",2,Quadratic properties and simultaneous-equation cases are understandable and end at a complete example.
+C,gutenberg-38536-u005,0,50fc724f82fbd17490f9577d,"~Progressions~
+
+Development of formulas.
+{ l = ar^(n - 1).
+{ l = a + (n - 1)d.            { S = (ar^n - a)/(r - 1).
+{ S = (n/2)(a + l).            { S = (rl - a)/(r - 1).
+{ S = (n/2)[2a + (n - 1)d].    { S[infinity] = (a)/(1 - r).
+
+Insertion of means
+Arithmetical.
+Geometrical.
+
+~Binomial Theorem~
+
+Review of binomial theorem laws. See Involution.
+
+Expansion of (a + b)^n.
+
+Finding any term by
+key number method.
+r^(th) or (r + 1)^(th) term method.",2,"Progression formulas and the binomial-term outline form a readable, complete summary."
+C,gutenberg-38536-u006,0,963e8da290460d13babbcde8,"3. (2v + 3w)(2v - 3w).
+
+4. (x + 3ts)(x - 7ts).
+
+5. (2l + 3g)(4l - 11g).
+
+6. (a - (2b)/3 + c - d)^2.
+
+7. (x^3 + 8m^3)/(x + 2m).
+
+8. (y^3 - 27k^(3m))/(y - 3k^m).
+
+9. (c^5 - d^5)/(c - d).
+
+10. (e^5 + d^5)/(e + d).
+
+11. (x^4 - y^4)/(x - y).
+
+12. (x^4 - y^4)/(x + y).
+
+13. (a - .03)(a - .0007).
+
+14. (g^n - 1/2)(g^n + 3/4).
+
+15. (t^7 - v^(7/2))/(t - v^(1/2)).
+
+16. (k^32 + 1)(k^16 +1)(k^8 + 1)(k^4 +1)(k^2 +1)(k + 1)(k - 1).
+
+17. [(a + b) + (c + d)][(a + b) - (c + d)].
+
+18. (p - q + r - s)(p - q - r + s).
+
+19. (3m - n - l + 2r)(3m + n - l - 2r).
+
+20. (x + 5)(x - 2)(x - 5)(x + 2).
+
+21. (a^2 + b^2 - c - 2d + 3e)^2.
+
+22. (s + t - 2v/5 + 3w/6 + z^2)^2.
+
+23. (x^5 + 32)/(x + 2).
+
+~References:~ The chapter on Special Rules of Multiplication and
+Division in any algebra.
+Special Rules of Multiplication and Division in the
+Outline in the front of the book.",1,"The exercise expressions are readable, but the initial instruction is outside this chunk."
+C,gutenberg-38536-u007,0,f651a6e189fa0cd7887ce635,"CASE III. The difference of two squares.
+
+_A._ Two terms. x^2 - y^2 = (x + y)(x - y).
+
+_B._ Four terms.
+
+x^2 + 2xy + y^2 - m^2 = (x^2 + 2xy + y^2) - m^2
+= (x + y + m)(x + y - m)
+
+_C._ Six terms. x^2 - 2xy + y^2 - m^2 - 2mn - n^2
+= (x^2 - 2xy + y^2) - (m^2 + 2mn + n^2)
+= (x - y)^2 - (m + n)^2
+= [(x - y) + (m + n)][(x - y) - (m + n)].
+
+_D._ An incomplete square. Three terms, and
+4th powers or multiples of 4.
+
+c^4 + c^2 d^2 + d^4 = c^4 + 2c^2 d^2 + d^4 - c^2 d^2
+= (c^2 + d^2)^2 - c^2 d^2
+= (c^2 + d^2 + cd)(c^2 + d^2 - cd).
+
+CASE IV. A trinomial of the form x^2 + bx + c. Three terms.
+
+x^2 + x - 30 = (x + 6)(x - 5).
+
+CASE V. A trinomial of the form ax^2 + bx + c. Three terms.
+
+20x^2 + 7x - 6 = (4x + 3)(5x - 2).
+
+CASE VI.
+
+_A._ The sum or difference of two cubes. Two terms.
+
+x^3 + y^3 = (x + y)(x^2 - xy + y^2);
+x^3 - y^3 = (x - y)(x^2 + xy + y^2).",2,The case heading and factorization identities are self-contained and complete.
+C,gutenberg-38536-u008,0,b261479c1ac0a8861a0b5b54,"4. m^2 + n^2 - (1 + 2mn).
+
+5. -x^2 + 2x - 1 + x^4.
+
+6. x^(16) - y^(16).  (Five factors.)
+
+7. (x + 1)^2 - 5x - 29.
+
+8. x^4 + x^2 y^2 + y^4.
+
+9. x^4 - 11x^2 + 1.
+
+10. x^(2m) + 2 + 1/(x^(2m)).
+
+11. x^(6m) + 13x^(3m) + 12.
+
+12. 4a^2 b^2 - (a^2 + b^2 - c^2)^2.
+
+13. (x^2 - x - 6)(x^2 - x - 20).
+
+14. a^4 - 8a - a^3 + 8.
+
+15. p^3 + 7p^2 + 14p + 8.
+
+16. 18a^2 b + 60ab^2 + 50b^3.
+
+17. x^3 - 7x + 6.
+
+18. 24c^2 d^2 - 47cd - 75.
+
+19. (a^2 - b^2)^2 - (a^2 - ab)^2.
+
+20. a^2 x^3 - (8a^2)/(y^3) - x^3 + 8/(y^3).
+
+21. gt - gk + gl^2 + xt - xk + xl^2.
+
+22. (m - n)(2a^2 - 2ab) + (n - m)(2ab - 2b^2).
+
+23. a^2 - x^2 - y^2 + b^2 + 2ab + 2xy.
+
+24. (2c^2 + 3d^2)a + (2a^2 + 3c^2)d.
+
+25. (n(n - 1))/(1 . 2) a^(n - 2) b^2
++ (n(n - 1)(n - 2))/(1 . 2 . 3) a^(n - 3) b^3.
+
+26. (x - x^2)^3 + (x^2 - 1)^3 + (1 - x)^3.            (_M. I. T._)
+
+27. (27y^3)^2 - 2(27y^3)(8b^3) + (8b^3)^2.          (_Princeton._)",1,"Starts midway through a problem list; exercises are legible, but the instruction/context is absent."
+C,gutenberg-38536-u009,0,9f0424856b49f03b5470a338,"5. x^5 - 2x^4 + x^2,
+2x^4 - 4x^3 - 4x + 6.                                 (_Yale._)
+
+6. x^2 + a^2 - b^2 + 2ax,
+x^2 - a^2 + b^2 + 2bx,
+x^2 - a^2 - b^2 - 2ab.                             (_Harvard._)
+
+7. 2x^2 - x - 15,
+3x^2 - 11x + 6,
+2x^3 - x^2 - 13x - 6.               (_College Entrance Board._)
+
+8. (tv - v^2)^3,
+v^3 - t^2v,
+t^3 - v^3,
+v^2 - 2vt + t^2.
+
+Pick out the H. C. F. and the L. C. M. of the following:
+
+9. 8(x^2 + y)^(32) (t^2 + z)^(19) (m - n^3)^(14),
+12(x^2 + y)^(23) (t^2 + z)^(41) (m - n^3)^(17),
+18(m - n^3)^(11) (x^2 + y)^(39) (t^2 + z)^(37).
+
+10. 17ax^3 (y + z)^(10) (y - x)^(19) (x + z)^(27),
+34a^2 x^4 (y + z)^(11) (y - x)^(21) (x + z)^(13),
+51a^3 x^5 (y + z)^4 (x + z)^(32) (y - x)^(29).
+
+~Reference:~ The chapter on H. C. F. and L. C. M. in any algebra.",1,The mixed exercise list starts mid-series; its H.C.F./L.C.M. instruction appears only later in the chunk.
+C,gutenberg-38536-u010,0,b6ef2c30d7099dd596b394f0,"7. 72/121 x 55/56 x 77/90.
+
+8. (b - y)/(a^3 + y^3) x (ca + cy)/(b^2 + by)
+x (b^6 + y^6)/(b^2 + y^2) x b/c.
+
+Divide:
+
+9. (12/25) / (6/50).
+
+10. [1 - (ab)/(a^2 - ab + b^2)] [1 - (ab)/(a^2 + 2ab + b^2)]
+/ (a^3 - b^3)/(a^3 + b^3).                           (_Yale._)
+
+11. [(x^4 - y^4)/(x^2 - y^2) / (x + y)/(x^2 - xy)]
+/ [(x^2 + y^2)/(x - y) / (x + y)/(xy - y^2)].   (_Sheffield._)
+
+Simplify:
+
+12. [(4y)/x - (15y^2)/(x^2) + 4] / [4 - (16y)/x + (15y^2)/(x^2)]
+x [3 - (4x + 20y)/(2x + 5y)].
+
+~Reference:~ The chapter on Fractions in any algebra.",1,"Starts at exercise 7 without an instruction; Divide/Simplify labels appear later, so only part of the list has clear task context."
